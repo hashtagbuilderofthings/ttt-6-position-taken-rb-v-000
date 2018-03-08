@@ -2,11 +2,8 @@ def position_taken(board,index)
 
 if board[index] == "  "
   return true
-else 
+else
   return false  
-  
-end
 
-board = [" ", " "," "," "," "," "," "," "," "]
-board[0] != " "
- 
+end
+end
