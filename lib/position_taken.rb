@@ -1,11 +1,12 @@
-def position_taken(x,y)
+def position_taken(board,index)
 
-if array[x] == "  " 
-  return false
-
-if array[y] == "  "
-  return false
-
-
-
+if board[index] == "  "
+  return true
+else 
+  return false  
+  
 end
+
+board = [" ", " "," "," "," "," "," "," "," "]
+board[0] != " "
+ 
